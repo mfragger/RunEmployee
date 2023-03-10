@@ -9,8 +9,6 @@
 
     internal class FullTimeEmployee : Employee {
 
-        private static readonly Dictionary<double, FullTimeEmployee> salaryToEmployee = new();
-
         public FullTimeEmployee(string? name, double salary) {
 
             setName(name);
@@ -56,7 +54,11 @@
 
     internal class RunEmployee {
         static void Main() {
+            NotImproved_Version();
+            ImprovedRunEmployee.ImprovedRunEmployee.Improved_Version();
+        }
 
+        private static void NotImproved_Version() {
             Console.WriteLine("What is your name?");
             string? answer_name = Console.ReadLine();
 
@@ -92,7 +94,6 @@
                         return;
                     }
             }
-
         }
     }
 }

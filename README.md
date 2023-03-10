@@ -6,6 +6,9 @@ I was bored and a friend challenged me.
 ## Where's the checking if values are correct?
 It wasn't in the requirements of the challenge, plus I was under pressure. I won 50 bucks.
 
+## Improved Version
+Since I didn't like how the code was struced I made a improved version.
+
 ## MIT License
 
 > MIT License
